@@ -1,0 +1,39 @@
+.header-div{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255,255,255);
+    justify-content: end;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+  }
+  .icon-div{
+    text-align: center;
+    align-self:center;
+  }
+  .icon-cart{
+    width: 25px;
+    height: 25px;
+  }
+  .icon-cart:hover{
+    
+    transition-duration: 0.5s;
+    color: rgb(74, 181, 74);  
+  }
+  .badge-cart{
+    background-color: rgb(118, 151, 70);
+    border-radius: 50%;
+    padding: 3px;
+    color: white;
+  }
+  .gap-1{
+    height: 20px;
+    box-shadow:inset  0px 0px 10px 0px rgb(220,220,220);
+  }
+  /* second header */
+  .sec-header{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(245,249,250);
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+  }

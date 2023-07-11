@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header-div{
+  width: 100%;
+  height: 90px;
+  background-color: rgb(255,255,255);
+  justify-content: end;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+}
+.icon-div{
+  text-align: center;
+  align-self:center;
+}
+.icon-cart{
+  width: 25px;
+  height: 25px;
+}
+.icon-cart:hover{
+  
+  transition-duration: 0.5s;
+  color: rgb(74, 181, 74);  
+}
+.badge-cart{
+  background-color: rgb(118, 151, 70);
+  border-radius: 50%;
+  padding: 3px;
+  color: white;
+}
+.gap-1{
+  height: 20px;
+  box-shadow:inset  0px 0px 10px 0px rgb(220,220,220);
+}
+/* second header */
+.sec-header{
+  width: 100%;
+  background-color: rgb(245,249,250);
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+}
+.sec-2header{
+  text-align: center;
+  padding: 50px 0px;
+}
+.content-main{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+ 
+  width: 70%;
+}
+.content-main-1{
+  text-align: -webkit-center;
+}
+.gap{
+  height: 20px;
+}
+.content-sub-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  border-bottom: 2px solid #bcbcbc;
+  align-items: center;
+}
+.content-header-1{
+  align-items: end;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+.book-img{
+  width: 45px;
+  height: 70px;
+  border: 1px solid #bcbcbc;
+  padding: 10px;
+  margin: 20px;
+}
+.button-val{
+  border: 2px solid black;
+}
+.dollor-sym{
+  font-size: 20px;
+}
+.content-main-2{
+  display: grid;
+  grid-template-columns:3fr 2fr 1fr;
+  width: 70%;
+}
+.btn-coopn{
+  text-align: -webkit-center;
+}
+.input-1{
+  width: 100%;
+  height: 29px;
+}
+.input-main{
+  display: grid;
+  grid-template-columns: 1fr 10% ;
+}
+.icon-arrow{
+  width: 23px;
+  height: 23px;
+  padding: 6px;
+  background-color: #31b978 ;
+  color: white;
+}
+.icon-i{
+  align-self: center;
+}
+.arrrow{
+  width: 20px;
+  height: 20px;
+}
